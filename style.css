@@ -222,4 +222,8 @@ hr{
   .list{
 	transform: translateX(-150%);
   }
+
+  .close-menu-btn{
+	display: block;
+  }
 }
