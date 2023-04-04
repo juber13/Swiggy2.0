@@ -189,8 +189,9 @@ line.addEventListener('click' , addTrans);
 const list = document.querySelector('.list');
 
 function addTrans(){
-
-	// console.log(list)
-	list.classList.add('add');
-	// document.body.style.backgroundColor = "#000";
+  list.classList.add('add');
 }
+
+document.querySelector('.close-menu-btn').addEventListener('click',() => {
+	list.classList.remove('add');
+})
